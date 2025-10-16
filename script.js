@@ -160,9 +160,8 @@ function initContactForm() {
       });
 
       if (response.ok) {
-        // Atualização: feedback alinhado à nova paleta azul
         feedback.textContent = 'Mensagem enviada! Em breve entraremos em contato.';
-        feedback.style.color = '#3a86ff';
+        feedback.style.color = '#9f6bff';
         form.reset();
       } else {
         throw new Error('Erro no envio');
